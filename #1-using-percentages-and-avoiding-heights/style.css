@@ -3,10 +3,12 @@
  * 1) Limit the total width of
  *    the .intro-conent to about half
  *    of it's parent
+      JL: 1/2 * 80% = 40%
  *
  * 2) Stop the text from overflowing
  *    out the bottom at small screen
  *    widths
+      JL: alter height to be dynamic, responsive  
  *
  * You may modify the HTML if needed
  *
@@ -29,5 +31,9 @@ body {
   margin: 0 auto;
 
   padding: 2em;
-  height: 300px;
+  height: 40%;
+}
+
+.intro-conent {
+  width: 40%;
 }
