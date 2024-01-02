@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3125rem; /* 21px / 16px */
+}
+
+h1 {
+  font-size: 3rem; /* 48px / 16px */
+}
+
+.hero-container {
+  background-color: hsl(192, 36%, 21%);
+  color: white;
+  padding: 6.25em 0;
+}
+
+.layout-container {
+  width: 80%; /* 80% of the parent viewport */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-container__text {
+  width: 55%;
+}
+
+.btn{
+ display: inline-block;
+ background-color: hsl(184, 68%, 54%);
+ padding: 0.5em 2em;
+ border-radius: 1000px;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #23424A;
+ font-weight: bold;
+}
+
+.btn:hover,.btn:focus {
+  background-color: hsl(184, 68%, 70%);
+}
